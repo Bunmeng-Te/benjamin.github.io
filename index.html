@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <!-- Import the icons from boxicon website -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+</head>
+<body>
+    <!-- Header -->
+    <div id="header"> 
+        <h1>BUNMENG TE</h1>
+    </div>
+
+    <!-- Navigation Bar-->
+    <div id = "navbar">
+        <ul>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "about.html">About</a></li>
+            <li><a href = "future.html">Future</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Container -->
+    <div id = "maincontainer">
+
+        <div class="a">
+            <div id="img1">
+                <a href = "profile.JPG"><img class="img1" src = "profile.JPG" alt ="my profile"/></a>
+            </div>
+            <div id = "main1">
+                <h1>Hello, I am Bunmeng Te</h1>
+                <h3>Diploma of Information Technology</h3>
+                <h3>La Trobe University, Australia</h3>
+                <p>I'm honing my skills in IT knowledge. With my mathematical background allows me to analyze some of the complex systems and data, while my creativity helps me think outside the box and develop innovative solutions.</p>
+            </div>
+        </div>
+
+        <div class="b">
+            <div id = "main2">
+                <h1>Achievements</h1>
+                <img class="img2" src="bacII.jpg" alt="Grade 12 High School Exam">
+                <p>Since the very beginning of my academic life, I studied at Beltei International School, I dedicated myself to my studies and considered it as my second home. By the end of 2022, I attended Cambodian Grade 12 National Exam and achieved a grade A with an impressive overall band score of 99.525.</p>
+                <img class="img3" src="osm12.jpg" alt="Grade 12 Math Competition">
+                <p>During grade 12, I also took part in the prestigious Cambodia Outstanding Student Exam in mathematics, I secured the remarkable 4th rank, further reinforcing my commitment to the world of pure mathematics and honing my critical skills in both algebra and geometry problem-solving.</p>
+                <img class="img4" src="osm9.jpg" alt="Grade 9 Math Competition">
+                <p>One significant aspect of my educational journey that has always held a special place in my heart is my profound love for STEM, mathematics. From a very young age, I found myself drawn to the beauty and complexity of numbers and equations. Solving numerous mathematics problems has become a cherished habit of mine. During my time in grade 9, I also had the opportunity to truly showcase my mathematical abilities when I participated in the Cambodia Outstanding Student Exam, organized by the Ministry of Education, Youth, and Sports. I was elated to receive a gold medal for my performance among the 80 competitors from all the provinces and cities in Cambodia.</p>
+                <img class="img5" src="imc.png" alt="International Mathematics Competition">
+                <p>Beyond national competitions, I sought to challenge myself on an international level. Even though it was during the pandemic, I was trying my best to actively participate in renowned competitions such as the Singapore and Asian Schools Math Olympiad (SASMO) and the Asia International Mathematical Olympiad (AIMO). My dedication and hard work paid off as I was awarded a gold and a silver medal, respectively, in these prestigious events.</p>
+            </div>
+        </div>
+
+        <div class="c">
+            <div id = "main3">
+                <h1>Hobbies</h1>
+                <div class="row">
+                    <div class="column">
+                        <img class="img6" src="guitar.jpg" alt="playing guitar" >
+                    </div>
+                    <div class="column">
+                        <img class="img7" src="piano.jpg" alt="playing piano" >
+                    </div>
+                    <div class="column">
+                        <img class="img8" src="swimming.jpg" alt="swimming" >
+                    </div>
+                </div>
+                <p>I love to fill my free time with music and laughter. I often play guitar and sing for my friends, sharing my passion for music and creating special moments together. Sometimes, I play the piano, letting my fingers explore different melodies and harmonies. When I need a change of pace, I head to the pool with my friends, where we can cool off, have fun, and enjoy the feeling of weightlessness in the water. These hobbies bring me joy, relaxation, and connection with the people I care about.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer, social media, navigation bar, and copy right -->
+    <footer>
+        <div id="footercontainer">
+            <h1><b>Contact Me On</b></h1>
+            <div class="socialIcons">
+                <a href="https://www.facebook.com/people/Bun-Meng/pfbid02mwosfJytoKS9b17n4f7eCDmqqumEx9D6ydWMzmYz2F4Jy9g7j6HL5fGNQJPaQgH5l/?mibextid=LQQJ4d"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/meng.bun?igsh=MTI3ZGh4cnE0YnJydg%3D%3D&utm_source=qr"><i class='bx bxl-instagram'></i></a>
+                <a href="https://t.me/Te_Bunmeng"><i class='bx bxl-telegram'></i></a>
+                <a href="https://www.linkedin.com/in/bun-meng-772b932aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <div class="footerNav">
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "about.html">About</a></li>
+                    <li><a href = "future.html">Future</a></li>
+                </ul>
+            </div>
+            <div class="footerBottom">
+                <p>Copyright &copy;2024; Designed by <b>BUNMENG TE</b> </p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Creating Feedback form and link to ThankYou.php -->
+    <div id="feedback">
+        <form action="ThankYou.php" method="GET">
+            <h1>Give your Feedback</h1>
+            <div class="id">
+                <label for = "username">Username:</label>
+                <input type = "text" name = "username" id = "username" placeholder="username"/><br/>
+                
+                <label for = "emailaddress">Email:</label>
+                <input type = "email" name = "emailaddress" id = "emailaddress" placeholder="example@domain.com"/><br/>
+
+                <label for = "myfeedback">Give Feedback: </label>
+                <textarea rows="5" cols="30" name = "myfeedback" placeholder="Enter your opinions here..."></textarea><br/>
+
+                <input type = "submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
